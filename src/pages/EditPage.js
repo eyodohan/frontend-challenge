@@ -56,13 +56,13 @@ const EditPage = () => {
           aria-label="default input example"
         />
         <div className="d-flex align-items-center justify-content-center mt-2">
-          <NavLink
+          <button
             to="/dashboard/tasks"
             type="submit"
             className="btn btn-secondary col-6"
           >
             Edit Task
-          </NavLink>
+          </button>
         </div>
       </form>
     </div>
